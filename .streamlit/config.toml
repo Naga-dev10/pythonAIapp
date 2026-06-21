@@ -3,7 +3,7 @@ base = "light"
 primaryColor = "#4F8BF9"
 
 [server]
-headless = false
+headless = true
 port = 8501
 
 [browser]
