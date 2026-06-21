@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import streamlit, sys; print\\(streamlit.__version__\\)\")",
+      "Bash(python -c \"import google.genai; print\\('genai ok'\\)\")",
+      "Bash(python -m pip show google-genai python-dotenv truststore streamlit)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('app.py', encoding='utf-8'\\).read\\(\\)\\)\")",
+      "Bash(gh auth *)"
+    ]
+  },
+  "skillOverrides": {
+    "skill-creator": "name-only"
+  }
+}

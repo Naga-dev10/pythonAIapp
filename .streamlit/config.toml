@@ -1,0 +1,10 @@
+[theme]
+base = "light"
+primaryColor = "#4F8BF9"
+
+[server]
+headless = false
+port = 8501
+
+[browser]
+gatherUsageStats = false
